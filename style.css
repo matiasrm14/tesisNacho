@@ -1,0 +1,86 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* hace que la imagen se ajuste */
+}
+
+.menu-title {
+    color: #333;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.menu-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.menu-item h2 {
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.menu-item p {
+    display: grid;
+    place-items: center;
+    font-size: 1.2rem;
+    color: rgb(150, 150, 150);
+    line-height: 1.2rem;
+    text-align: center;
+}
+
+.imagen-container-empanada {
+    border-radius: 4px;
+    grid-area: 1 / 1 / 3 / 2;
+    background-image: url('./images/empanadasCharque.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 23px;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.16);
+}
+
+.imagen-container-lomo {
+    border-radius: 4px;
+    grid-area: 1 / 1 / 3 / 2;
+    background-image: url('./images/lomo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 23px;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.16);
+}
+
+.imagen-container-helado {
+    border-radius: 4px;
+    grid-area: 1 / 1 / 3 / 2;
+    background-image: url('./images/heladoCoca.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 23px;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.16);
+}
