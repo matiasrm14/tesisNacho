@@ -19,11 +19,17 @@ main {
 
 .menu-title {
     color: #333;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: bolder;
     margin-bottom: 34px;
     text-align: center;
     margin-top: 50px;
+}
+
+.menu-title span {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #333;
 }
 
 .menu-grid {
